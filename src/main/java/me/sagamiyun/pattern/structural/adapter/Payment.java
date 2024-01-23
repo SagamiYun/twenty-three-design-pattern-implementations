@@ -1,4 +1,4 @@
-package me.sagamiyun.pattern.create.adapter;
+package me.sagamiyun.pattern.structural.adapter;
 
 /**
  * @author SagamiYun

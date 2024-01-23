@@ -1,8 +1,8 @@
-package me.sagamiyun.pattern.create;
+package me.sagamiyun.pattern.structural;
 
-import me.sagamiyun.pattern.create.adapter.CreditCardPaymentAdapter;
-import me.sagamiyun.pattern.create.adapter.PayPalPaymentAdapter;
-import me.sagamiyun.pattern.create.adapter.Payment;
+import me.sagamiyun.pattern.structural.adapter.CreditCardPaymentAdapter;
+import me.sagamiyun.pattern.structural.adapter.PayPalPaymentAdapter;
+import me.sagamiyun.pattern.structural.adapter.Payment;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 /**
  * @author SagamiYun
  * <p>@ClassName AdapterTest</p>
- * <p>@Description 适配器测试 </p>
+ * <p>@Description 适配器模式测试 </p>
  * <p>@Date 2024/1/23</p>
  */
 public class AdapterTest {
